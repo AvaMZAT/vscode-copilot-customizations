@@ -51,7 +51,7 @@ npm test
 
 1. Add a priority flag feature (multi-step)
 
-- Prompt: "Add a priority flag toggle to TaskList items; keep functional components, strict TS, single quotes, and no semicolons."
+- Prompt: "Add a priority flag toggle to TaskList items; keep functional components, strict TS, single quotes, and no semicolons. Do not adapt tests now"
 - Expected agent actions: update `TaskList` logic/UI; keep boundaries intact; no infra/main edits.
 
 2. Update or add tests
