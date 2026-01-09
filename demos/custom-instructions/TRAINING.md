@@ -57,7 +57,7 @@ npm test
 
 1. Feature prompt — add starts-with filter mode
 
-- Prompt: "Add a `startsWith` toggle to `FilterableList` via a boolean prop. When enabled, filter by starts-with (case-insensitive); otherwise, substring (case-insensitive). Keep functional components, single quotes, and no semicolons."
+- Prompt: "Add a `startsWith` toggle to `FilterableList` via a boolean prop. When enabled, filter by starts-with (case-insensitive); otherwise, substring (case-insensitive). Keep functional components, single quotes, and no semicolons. Do not change tests"
 - Expected outcomes:
   - `FilterableList` accepts `startsWith?: boolean`
   - Filtering logic supports both modes
