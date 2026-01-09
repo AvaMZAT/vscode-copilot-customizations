@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/specification/main/schema/mcp.schema.json",
+  "mcpServers": {
+    // Example: GitHub MCP Server (installed from registry)
+    // Uncomment and configure if manually adding servers
+    // "github": {
+    //   "command": "npx",
+    //   "args": ["-y", "@modelcontextprotocol/server-github"],
+    //   "env": {
+    //     "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+    //   }
+    // },
+
+    // Example: File System Server (read-only)
+    // "filesystem": {
+    //   "command": "npx",
+    //   "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/directory"],
+    //   "env": {}
+    // },
+
+    // Example: Custom Server (for advanced users)
+    // "custom-server": {
+    //   "command": "node",
+    //   "args": ["/path/to/custom-server/index.js"],
+    //   "env": {
+    //     "API_KEY": "${env:MY_API_KEY}"
+    //   }
+    // }
+  }
+}
+
+// Notes:
+// - This file is optional; servers installed via the VS Code UI are managed automatically
+// - Use this for manual server configuration or workspace-specific overrides
+// - Environment variables can reference system env using ${env:VAR_NAME}
+// - Always verify server source and trust before installation
+// - For security, never commit API keys or tokens; use environment variables
