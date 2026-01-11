@@ -14,21 +14,21 @@ Learn how to use repository-wide and path-scoped instructions to guide Copilot b
 - **Key file**: .github/copilot-instructions.md
 - **Setup & playbook**: See [Custom Instructions TRAINING.md](demos/custom-instructions/TRAINING.md)
 
-### 2. [Custom Agents](demos/custom-agents/)
-
-Define custom agent personas to delegate specialized tasks like test writing.
-
-- **What you'll learn**: Create and invoke @agent personas in Copilot Chat
-- **Key file**: .github/agents/test-specialist.agent.md
-- **Setup & playbook**: See [Custom Agents TRAINING.md](demos/custom-agents/TRAINING.md)
-
-### 3. [AGENTS.md](demos/agentsmd/)
+### 2. [AGENTS.md](demos/agentsmd/)
 
 Use AGENTS.md to define multi-step AI workflows with boundaries and examples.
 
 - **What you'll learn**: Set commands, coding conventions, PR rules, and architectural boundaries
 - **Key file**: demos/agentsmd/AGENTS.md
 - **Setup & playbook**: See [AGENTS.md TRAINING.md](demos/agentsmd/TRAINING.md)
+
+### 3. [Custom Agents](demos/custom-agents/)
+
+Define custom agent personas to delegate specialized tasks like test writing.
+
+- **What you'll learn**: Create and invoke @agent personas in Copilot Chat
+- **Key file**: .github/agents/test-specialist.agent.md
+- **Setup & playbook**: See [Custom Agents TRAINING.md](demos/custom-agents/TRAINING.md)
 
 ### 4. [Prompt Files](demos/prompt-files/)
 
@@ -42,7 +42,8 @@ Create reusable slash-commands that combine predefined logic and user input.
 
 Build self-contained capability folders that agents can discover and invoke on demand.
 
-- **What you'll learn**: Create un-quality-gates and other reusable agent skills
+- **What you'll learn**: Create 
+un-quality-gates and other reusable agent skills
 - **Key file**: .github/skills/
 - **Setup & playbook**: See [Agent Skills TRAINING.md](demos/skills/TRAINING.md)
 
@@ -71,3 +72,4 @@ For detailed setup, playbook, and discussion points, see the **TRAINING.md** fil
 ## CI
 
 On push and pull requests, the workflow validates all frontend applications by running install, lint, typecheck, and tests.
+
